@@ -1,4 +1,4 @@
-import { motion, useInView } from "motion/react";
+import { motion, useInView } from "framer-motion";
 import { Check, Zap, TrendingUp, Crown } from "lucide-react";
 import { useRef } from "react";
 
