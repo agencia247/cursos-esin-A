@@ -1,4 +1,4 @@
-import { motion, useInView } from "motion/react";
+import { motion, useInView } from "framer-motion";
 import { Shield, CheckCircle2, RefreshCw } from "lucide-react";
 import { useRef } from "react";
 
