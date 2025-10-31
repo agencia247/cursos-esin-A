@@ -1,4 +1,4 @@
-import { motion, useInView } from "motion/react";
+import { motion, useInView } from "framer-motion";
 import { DollarSign, TrendingUp, Wallet, Shield, Calculator, FileText, Users, Target } from "lucide-react";
 import { useRef } from "react";
 
