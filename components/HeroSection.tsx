@@ -153,7 +153,6 @@ export function HeroSection() {
             className="mb-8"
           >
             <p 
-              className="text-lg md:text-xl tracking-widest uppercase"
               style={{
                 color: "#D4AF37",
                 fontFamily: "'Poppins', sans-serif",
@@ -248,7 +247,7 @@ export function HeroSection() {
                 >
                   {/* First Line */}
                   <div className="flex flex-wrap items-center justify-center gap-3 md:gap-4">
-                    {/* "Obtén tus primeros" */}
+                    {/* \"Obtén tus primeros\" */}
                     <motion.span
                       className="inline-block"
                       initial={{ opacity: 0, x: -100, rotateY: -90 }}
@@ -259,7 +258,6 @@ export function HeroSection() {
                         fontFamily: "'Poppins', sans-serif",
                         fontWeight: 700,
                       }}
-                      className="text-2xl md:text-3xl lg:text-4xl"
                     >
                       Obtén tus primeros
                     </motion.span>
@@ -293,7 +291,6 @@ export function HeroSection() {
                           WebkitFontSmoothing: "antialiased",
                           MozOsxFontSmoothing: "grayscale",
                         }}
-                        className="text-3xl md:text-5xl lg:text-6xl"
                         animate={{
                           rotateY: [0, 10, -10, 0],
                           scale: [1, 1.1, 1],
@@ -354,7 +351,7 @@ export function HeroSection() {
 
                   {/* Second Line */}
                   <div className="flex flex-wrap items-center justify-center gap-3 md:gap-4">
-                    {/* "sin pagar intereses del banco" */}
+                    {/* \"sin pagar intereses del banco\" */}
                     <motion.span
                       className="inline-block text-center"
                       initial={{ opacity: 0, y: 50, rotateX: -90 }}
@@ -365,7 +362,6 @@ export function HeroSection() {
                         fontFamily: "'Poppins', sans-serif",
                         fontWeight: 700,
                       }}
-                      className="text-2xl md:text-3xl lg:text-4xl"
                     >
                       sin pagar intereses del banco
                     </motion.span>
@@ -373,7 +369,7 @@ export function HeroSection() {
 
                   {/* Third Line */}
                   <div className="flex flex-wrap items-center justify-center gap-3 md:gap-4">
-                    {/* "y consigue" */}
+                    {/* \"y consigue\" */}
                     <motion.span
                       className="inline-block"
                       initial={{ opacity: 0, x: -100, rotateY: -90 }}
@@ -384,7 +380,6 @@ export function HeroSection() {
                         fontFamily: "'Poppins', sans-serif",
                         fontWeight: 700,
                       }}
-                      className="text-2xl md:text-3xl lg:text-4xl"
                     >
                       y consigue
                     </motion.span>
@@ -419,7 +414,6 @@ export function HeroSection() {
                           WebkitFontSmoothing: "antialiased",
                           MozOsxFontSmoothing: "grayscale",
                         }}
-                        className="text-4xl md:text-6xl lg:text-7xl"
                         animate={{
                           rotateY: [0, 15, -15, 0],
                           rotateX: [0, -10, 10, 0],
@@ -501,7 +495,7 @@ export function HeroSection() {
                       ))}
                     </motion.span>
 
-                    {/* "en tiempo récord" */}
+                    {/* \"en tiempo récord\" */}
                     <motion.span
                       className="inline-block"
                       initial={{ opacity: 0, x: 100, rotateY: 90 }}
@@ -512,7 +506,6 @@ export function HeroSection() {
                         fontFamily: "'Poppins', sans-serif",
                         fontWeight: 700,
                       }}
-                      className="text-2xl md:text-3xl lg:text-4xl"
                     >
                       en tiempo récord
                     </motion.span>
@@ -583,7 +576,7 @@ export function HeroSection() {
               }}
             >
               <Sparkles className="w-6 h-6 relative z-10 text-black" />
-              <span className="text-xl md:text-2xl relative z-10 text-black">¡QUIERO ACCEDER A LA OFERTA!</span>
+              <span className="relative z-10 text-black">¡QUIERO ACCEDER A LA OFERTA!</span>
               
               {/* Inner Glow */}
               <motion.div
@@ -634,7 +627,6 @@ export function HeroSection() {
                   }}
                 >
                   <span 
-                    className="text-xl tracking-wide"
                     style={{ 
                       color: bank.color,
                       fontFamily: "'Poppins', sans-serif",
@@ -709,7 +701,7 @@ export function HeroSection() {
                       >
                         <Play className="w-12 h-12 text-black ml-2" fill="black" />
                       </motion.div>
-                      <p className="text-white text-xl">Ver presentación de Luis Lamas</p>
+                      <p className="text-white">Ver presentación de Luis Lamas</p>
                     </motion.div>
                   </>
                 ) : (
