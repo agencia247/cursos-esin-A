@@ -1,4 +1,4 @@
-import { motion, useInView } from "motion/react";
+import { motion, useInView } from "framer-motion";
 import { Sparkles, Play, TrendingUp, DollarSign } from "lucide-react";
 import { useState, useRef, useEffect } from "react";
 
