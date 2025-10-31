@@ -1,4 +1,4 @@
-import { motion, useInView } from "motion/react";
+import { motion, useInView } from "framer-motion";
 import { Calendar, Clock, Users, Sparkles, ArrowRight, Zap } from "lucide-react";
 import { useRef, useState, useEffect } from "react";
 
