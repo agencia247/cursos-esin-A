@@ -1,4 +1,4 @@
-import { motion, useInView } from "motion/react";
+import { motion, useInView } from "framer-motion";
 import { Award, BookOpen, Users, TrendingUp, Star, Crown } from "lucide-react";
 import { useRef } from "react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
